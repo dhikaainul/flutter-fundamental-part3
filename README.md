@@ -1,16 +1,28 @@
 # flutter_fundamental_3
 
-A new Flutter project.
+### Praktikum 1 : Menerapkan Gesture Detector
 
-## Getting Started
+1. Saat menggunakan gesture detector onTap maka setiap 1 kali klik pada gambar akan menampilkan angka dengan penambahan nilai counter ++.
+![Screenshot hello_world](images/1.PNG)
 
-This project is a starting point for a Flutter application.
+2. Saat menggunakan gesture detector onDoubleTap maka setiap 2 kali klik pada gambar maka akan menampilkan angka dengan penambahan nilai counter ++.
+![Screenshot hello_world](images/2.PNG)
 
-A few resources to get you started if this is your first Flutter project:
+3. Saat menggunakan gesture detector onLongPress maka setiap melakukan klik pada gambar maka akan ada jeda yang lumayan panjang dalam hal menampilkan angka dengan penambahan nilai counter ++.
+![Screenshot hello_world](images/3.PNG)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Praktikum 2: Menerapkan Input Widget dan Forms
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Terdapat error di source code pada line 56 pada kondisi if
+![Screenshot hello_world](images/5.PNG)
+
+2. Dengan menambahkan import 'package:flutter/foundation.dart'; maka error pada kondisi if akan hilang
+![Screenshot hello_world](images/4.PNG)
+
+### Praktikum 3: Menerapkan Custom Input dan FormField Widget
+
+1. Maka akan tampil form yang dapat memasukkan angka dari 0 - 9 saja dengan batas 6 karakter
+![Screenshot hello_world](images/6.PNG)
+
+
+
